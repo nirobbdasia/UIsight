@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.070605">
+<testcase classname="Application launch, Cases, iOS Cases, Repairs, Reservations, Realtime view" name="TC1.1 Successful launch of application" time="4.994062">
+<system-out><![CDATA[Given User opens "Safari" browser...........................................passed
+When User in on Homepage....................................................passed
+Then Verify titile of landing page should be "GCRM Insight Dashboard".......passed
+]]></system-out>
+</testcase>
+<testcase classname="Application launch, Cases, iOS Cases, Repairs, Reservations, Realtime view" name="TC1.3 Visibility of Icon, Header text &quot;iOS Cases&quot;, 'than yesterday' under Top Panel" time="1.076543">
+<system-out><![CDATA[Given User validates Icon of iOSCases component is displayed................passed
+When User validates Header text of "iOS Cases" is displayed.................passed
+Then User validates iOS Cases % than yesterday text is displayed............passed
+And User validates arrow tip of iOSCases is displayed.......................passed
+And User validates the tooltip "Last hours trend" is displayed on mousehover of graph under iOS Cases component.passed
+And User validates the tooltip "Based on UTC" is displayed on mousehover on Count under iOS Component.passed
+]]></system-out>
+</testcase>
+</testsuite>

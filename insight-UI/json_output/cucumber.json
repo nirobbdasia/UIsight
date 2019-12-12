@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "TC1.1 Successful launch of application",
+        "description": "",
+        "id": "application-launch--cases--ios-cases--repairs--reservations--realtime-view;tc1.1-successful-launch-of-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4697345426,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Safari\" browser",
+            "match": {
+              "location": "TopPanelSteps.user_launches_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69145305,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User in on Homepage",
+            "match": {
+              "location": "TopPanelSteps.user_in_on_Homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15099402,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify titile of landing page should be \"GCRM Insight Dashboard\"",
+            "match": {
+              "location": "TopPanelSteps.user_validates_the_Homepagetitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TopPanel"
+          },
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "TC1.3 Visibility of Icon, Header text \"iOS Cases\", \u0027than yesterday\u0027 under Top Panel",
+        "description": "",
+        "id": "application-launch--cases--ios-cases--repairs--reservations--realtime-view;tc1.3-visibility-of-icon--header-text-\"ios-cases\"---than-yesterday--under-top-panel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996164930,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User validates Icon of iOSCases component is displayed",
+            "match": {
+              "location": "TopPanelSteps.validate_icon_of_iOSCases_component()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10755605,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User validates Header text of \"iOS Cases\" is displayed",
+            "match": {
+              "location": "TopPanelSteps.validate_header_text_of_iOS_Cases()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20625732,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User validates iOS Cases % than yesterday text is displayed",
+            "match": {
+              "location": "TopPanelSteps.validate_iOS_Cases_of_than_yesterday_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17176602,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User validates arrow tip of iOSCases is displayed",
+            "match": {
+              "location": "TopPanelSteps.validate_arrow_of_iOSCases()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13494002,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User validates the tooltip \"Last hours trend\" is displayed on mousehover of graph under iOS Cases component",
+            "match": {
+              "location": "TopPanelSteps.validate_the_tooltip_on_iOSCases_of_graphs_as_Last_hours_trend()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11688671,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User validates the tooltip \"Based on UTC\" is displayed on mousehover on Count under iOS Component",
+            "match": {
+              "location": "TopPanelSteps.validte_the_tooltip_on_iOSCases_of_count_as_Based_on_UTC()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TopPanel"
+          },
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Application launch, Cases, iOS Cases, Repairs, Reservations, Realtime view",
+    "description": "",
+    "id": "application-launch--cases--ios-cases--repairs--reservations--realtime-view",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/apple/gcrm/insightui/features/1_TopPanel.feature"
+  }
+]
